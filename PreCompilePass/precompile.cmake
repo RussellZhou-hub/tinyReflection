@@ -10,7 +10,7 @@ ADD_CUSTOM_TARGET(
         COMMAND
         ${CMAKE_COMMAND} -E echo "+++ Precompile Started +++"
         COMMAND
-        ${PRECOMPILE_PARSER} 0
+        ${PRECOMPILE_PARSER} "${FILE_TO_BE_REFLECT_DIR}/test.hxx"
         COMMAND
         ${CMAKE_COMMAND} -E echo "+++ Precompile finished +++"
         COMMAND
