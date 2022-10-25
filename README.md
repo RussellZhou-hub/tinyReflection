@@ -52,6 +52,9 @@ run test program.
 Integrated metareflect in my `tinyReflection` Cmake project , change the Class declaration in the test.hxx and run, information of the class
 will automatically print to cmdline.
 
+
+![img.png](img\img.png)
+
 ## Next
 - //TODO: add some GUI stuff to display reflection information;
 - //TODO: call object's function by name;
